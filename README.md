@@ -27,4 +27,4 @@ public override void ContactClient(Client client, string subject, string message
             Console.WriteLine();
         }
 ```
-![enum1](https://cloud.githubusercontent.com/assets/20840005/22840865/aa949ee8-efe8-11e6-99f2-06728e860cec.gif)
+![enum4](https://cloud.githubusercontent.com/assets/20840005/22841785/44992484-efec-11e6-823a-592517f1a935.gif)
