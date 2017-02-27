@@ -64,16 +64,16 @@ struct Մարտիկ
 
 ####By default, the first enumerator has the value 0, and the value of each successive enumerator is increased by 1. For example, in the following enumeration, Sat is 0, Sun is 1, Mon is 2, and so forth.
 ```C# part of  my example Solar_System
-enum Days {Sun, Mercury, Venus, Earth, Mars, Jupiter,Saturn, Uranus,Neptune,Pluto};  
+enum Planets {Sun, Mercury, Venus, Earth, Mars, Jupiter,Saturn, Uranus,Neptune,Pluto};  
 ```
 ####Enumerators can use initializers to override the default values, as shown in the following example.
 ```C#  C# part of  my example Solar_System
-enum Days {Sun=1, Mercury, Venus, Earth, Mars, Jupiter,Saturn, Uranus,Neptune,Pluto};  
+enum Planets {Sun=1, Mercury, Venus, Earth, Mars, Jupiter,Saturn, Uranus,Neptune,Pluto};  
 ```
 ####In this enumeration, the sequence of elements is forced to start from 1 instead of 0. However, including a constant that has the value of 0 is recommended. For more information, see Enumeration Types.
 <b>Every enumeration type has an underlying type, which can be any integral type except<I> char</I></b>. The default underlying type of enumeration elements is int. To declare an enum of another integral type, such as byte, use a colon after the identifier followed by the type, as shown in the following example.
 ```C# C# part of  my example Solar_System
-enum Days : byte {Sat=1, Sun, Mon, Tue, Wed, Thu, Fri};  
+enum Planets : byte {Sun=1, Mercury, Venus, Earth, Mars, Jupiter,Saturn, Uranus,Neptune,Pluto};  
 ```
 ###The approved types for an enum are byte, sbyte, short, ushort, int, uint, long, or ulong.
 A variable of type Days can be assigned any value in the range of the underlying type; the values are not limited to the named constants.
