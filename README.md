@@ -75,7 +75,7 @@ enum Planets {Sun=1, Mercury, Venus, Earth, Mars, Jupiter,Saturn, Uranus,Neptune
 ```C# C# part of  my example Solar_System
 enum Planets : byte {Sun=1, Mercury, Venus, Earth, Mars, Jupiter,Saturn, Uranus,Neptune,Pluto};  
 ```
-### The approved types for an enum are byte, sbyte, short, ushort, int, uint, long, or ulong.
+## The approved types for an enum are byte, sbyte, short, ushort, int, uint, long, or ulong.
 A variable of type Days can be assigned any value in the range of the underlying type; the values are not limited to the named constants.
 The default value of an enum E is the value produced by the expression (E)0.
 System_CAPS_ICON_note.jpg Note
