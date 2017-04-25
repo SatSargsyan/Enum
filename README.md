@@ -127,3 +127,5 @@ public override void ContactClient(Client client, string subject, string message
 ```
         
 ![enum4](https://cloud.githubusercontent.com/assets/20840005/22841785/44992484-efec-11e6-823a-592517f1a935.gif)
+
+[DOUBLE](https://www.daniweb.com/programming/software-development/threads/276251/how-to-define-casting-from-enum-to-double)
